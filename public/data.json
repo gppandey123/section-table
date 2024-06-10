@@ -1,4 +1,4 @@
-export const SectionData = {
+{
     "__service_time__": "1.6876411437988 seconds",
     "__offset_seconds__": -150,
     "global_project": {

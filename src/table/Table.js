@@ -42,7 +42,7 @@ export const Table = ({sectionData, onChangeInput}) => {
                                      <input
                                       name="quantity"
                                       value={item?.quantity}
-                                      type="text"
+                                      type="number"
                                       onChange={(e) => {onChangeInput(e,item?.item_id, sectionData?.section_id)}}
                                       placeholder="quantity"
                                      />
@@ -51,7 +51,7 @@ export const Table = ({sectionData, onChangeInput}) => {
                                     <input
                                       name="unit_cost"
                                       value={item?.unit_cost}
-                                      type="text"
+                                      type="number"
                                       onChange={(e) => {onChangeInput(e,item?.item_id,sectionData?.section_id)}}
                                       placeholder="cost"
                                      />
